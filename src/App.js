@@ -2,6 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from "./Header/Header";
 import Home from "./Home/Home";
+import Counter from "./Counter/Counter";
 
 function App() {
     return (
@@ -13,7 +14,7 @@ function App() {
                     </Route>
                     <Route path="/checkout">
                         <Header/>
-                        checkout
+                        <Counter/>
                     </Route>
                     <Route path="/">
                         <Header/>
